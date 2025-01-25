@@ -14,7 +14,7 @@ public class MobileBrowserTest extends BrowserBaseTest {
 		driver.findElement(By.name("q")).sendKeys("Testla cars");
 		driver.findElement(By.name("q")).sendKeys(Keys.ENTER);
 		
-		
+		System.out.println("Test practice");
 		
 	}
 
