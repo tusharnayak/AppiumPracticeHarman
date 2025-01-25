@@ -1,0 +1,14 @@
+package testcases;
+
+public class TestWebBrowser {
+	
+	public static AndroidDriver driver;
+
+	public static void main(String[] args) {
+		
+		driver = new AndroidDriver();
+		
+
+	}
+
+}
